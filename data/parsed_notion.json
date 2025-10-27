@@ -1,0 +1,65 @@
+{
+  "meal_history": [
+    {
+      "date": "2025-10-25",
+      "type": "점심",
+      "meal": "두부샐러드",
+      "calories": 350,
+      "cost": 9000
+    },
+    {
+      "date": "2025-10-24",
+      "type": "저녁",
+      "meal": "채소비빔밥",
+      "calories": 420,
+      "cost": 8000
+    },
+    {
+      "date": "2025-10-24",
+      "type": "점심",
+      "meal": "된장찌개 (고기 빼고)",
+      "calories": 280,
+      "cost": 7000
+    },
+    {
+      "date": "2025-10-23",
+      "type": "저녁",
+      "meal": "계란볶음밥",
+      "calories": 480,
+      "cost": 6500
+    },
+    {
+      "date": "2025-10-23",
+      "type": "점심",
+      "meal": "연두부찌개",
+      "calories": 320,
+      "cost": 8000
+    }
+  ],
+  "preferences": {
+    "allergies": [],
+    "dislikes": ["버섯"],
+    "diet_goal": "장 건강 유지 및 식이섬유 섭취",
+    "favorite_cuisines": ["한식", "샐러드", "두부 요리"],
+    "spicy_level": "보통",
+    "cooking_skill": "중급",
+    "health_conditions": [],
+    "dietary_restrictions": {
+      "평일": "락토오보 (유제품과 계란은 가능, 고기와 생선은 불가)",
+      "주말": "페스코 (생선과 해물은 가능, 고기는 불가)"
+    },
+    "cooking_notes": "간단한 채소 요리와 두부 요리 선호"
+  },
+  "schedule": {
+    "today": "2025-10-27",
+    "available_time": 45,
+    "meal_time": "저녁 7시",
+    "day_of_week": "월요일"
+  },
+  "budget": {
+    "daily_limit": 18000,
+    "today_spent": 9000,
+    "preferred_range": [7000, 12000]
+  }
+}
+

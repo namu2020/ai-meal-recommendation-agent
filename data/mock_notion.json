@@ -1,0 +1,58 @@
+{
+  "meal_history": [
+    {
+      "date": "2025-10-21",
+      "meal": "김치찌개",
+      "calories": 450,
+      "type": "점심",
+      "cost": 8000
+    },
+    {
+      "date": "2025-10-21",
+      "meal": "샐러드",
+      "calories": 280,
+      "type": "저녁",
+      "cost": 12000
+    },
+    {
+      "date": "2025-10-20",
+      "meal": "제육볶음",
+      "calories": 580,
+      "type": "점심",
+      "cost": 9000
+    },
+    {
+      "date": "2025-10-20",
+      "meal": "비빔밥",
+      "calories": 520,
+      "type": "저녁",
+      "cost": 8500
+    },
+    {
+      "date": "2025-10-19",
+      "meal": "된장찌개",
+      "calories": 350,
+      "type": "점심",
+      "cost": 7000
+    }
+  ],
+  "preferences": {
+    "allergies": ["땅콩", "새우", "게"],
+    "dislikes": ["고수", "파인애플", "올리브"],
+    "diet_goal": "다이어트",
+    "favorite_cuisines": ["한식", "일식"],
+    "spicy_level": "중간",
+    "cooking_skill": "중급"
+  },
+  "schedule": {
+    "today": "2025-10-21",
+    "available_time": 40,
+    "meal_time": "저녁 7시"
+  },
+  "budget": {
+    "daily_limit": 20000,
+    "today_spent": 20000,
+    "preferred_range": [7000, 12000]
+  }
+}
+

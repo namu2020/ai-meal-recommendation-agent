@@ -1,0 +1,34 @@
+{
+  "meal_history": [
+    {
+      "date": "2025-10-25",
+      "type": "6.5",
+      "meal": "보통",
+      "calories": 0,
+      "cost": 0
+    }
+  ],
+  "preferences": {
+    "allergies": [
+      "유당불내증(우유·치즈·크림 주의)"
+    ],
+    "dislikes": [],
+    "diet_goal": "1,800kcal · 단백질 ≥120g",
+    "favorite_cuisines": [],
+    "spicy_level": "보통",
+    "cooking_skill": "중급"
+  },
+  "schedule": {
+    "today": "2025-10-25",
+    "available_time": 30,
+    "meal_time": "20:00–20:30"
+  },
+  "budget": {
+    "daily_limit": 20000,
+    "today_spent": 8000,
+    "preferred_range": [
+      8000,
+      15000
+    ]
+  }
+}

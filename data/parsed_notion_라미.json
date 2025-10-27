@@ -1,0 +1,34 @@
+{
+  "meal_history": [
+    {
+      "date": "2025-10-25",
+      "type": "7.5",
+      "meal": "상",
+      "calories": 0,
+      "cost": 0
+    }
+  ],
+  "preferences": {
+    "allergies": [],
+    "dislikes": [
+      "매우 매운맛"
+    ],
+    "diet_goal": "2,800kcal / 단백질 ≥140g",
+    "favorite_cuisines": [],
+    "spicy_level": "보통",
+    "cooking_skill": "중급"
+  },
+  "schedule": {
+    "today": "2025-10-25",
+    "available_time": 30,
+    "meal_time": "점심"
+  },
+  "budget": {
+    "daily_limit": 20000,
+    "today_spent": 8000,
+    "preferred_range": [
+      8000,
+      15000
+    ]
+  }
+}
