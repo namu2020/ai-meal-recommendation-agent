@@ -20,9 +20,25 @@ DATA_PATH = Path(__file__).parent.parent / "data" / "mock_notion.json"
 
 
 def load_notion_data():
-    """노션 데이터 로드 (Mock 모드)"""
-    with open(DATA_PATH, 'r', encoding='utf-8') as f:
-        return json.load(f)
+    """현재 사용자의 노션 데이터 로드 (Mock 모드)
+    
+    환경 변수 CURRENT_NOTION_USER에 따라 사용자별 데이터 파일을 로드합니다.
+    예: CURRENT_NOTION_USER="지민" → data/parsed_notion_지민.json
+    """
+    # 환경 변수에서 현재 사용자 가져오기
+    current_user = os.getenv("CURRENT_NOTION_USER", "소윤")
+    
+    # 사용자별 파일 경로
+    user_file = Path(__file__).parent.parent / "data" / f"parsed_notion_{current_user}.json"
+    
+    # 사용자별 파일이 존재하면 로드
+    if user_file.exists():
+        with open(user_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    else:
+        # fallback to default mock data
+        with open(DATA_PATH, 'r', encoding='utf-8') as f:
+            return json.load(f)
 
 
 # MCP 클라이언트 함수들 (지연 import)
