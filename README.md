@@ -1,6 +1,6 @@
 # 🍽️ CrewAI 기반 개인화 음식 추천 챗봇
 
-[웹페이지](https://https://crewai-food-app-amt5fct7emtumqjskpzh62.streamlit.app/)
+[웹페이지](https://crewai-food-app-amt5fct7emtumqjskpzh62.streamlit.app/)
 
 **5명의 페르소나**를 위한 개인화된 AI 음식 추천 서비스!  
 6개의 AI 에이전트가 협업하여 각 사용자에게 최적의 메뉴를 추천합니다.
